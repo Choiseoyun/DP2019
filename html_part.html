@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<a href="training.html" target="_blank">HTML연습 바로가기</a>
+<a href="training.html">HTML연습 바로가기</a>
 <html>
     <head>
         <title>완벽한 작업환경 세팅하기</title>
@@ -25,7 +25,11 @@
         <br/>
         어떤 부분을 개선하여야 이전과 확실히 다른 시너지를 낼 수 있는지 알아야한다.
         </p>
+<<<<<<< HEAD
+        <img src="./images/bad.jpeg">
+=======
         <img src="bad.jpeg">
+>>>>>>> 2ede795baba6c93b216195ac7265ae038d5bda80
         <br />
         <h6<>나쁜 작업환경의 예</h6>
         <br />
@@ -72,5 +76,64 @@
         </p> 
         <br />
         <h2>좋은 작업환경을 세팅하여 좋은 시너지를 내길 바랍니다.</h2>
+
+        <style> table, tr, td 
+                {
+                    border:solid 1px lightblue;
+                } 
+        </style>
+        <style> table, tr, th 
+                {
+                    border-collapse: collapse;
+                    background: lightcyan;
+                    color: black;
+                    
+                } 
+        </style>
+        <style> table, caption
+                {
+                    background: skyblue;
+                    border: solid 1px lightblue;
+                    color: black;
+                }
+        
+        </style>
+        <table summary="추천 디바이스">
+            <caption>추천 디바이스 목록</caption>
+            <thead>
+                    <tr>
+                        <th scope="col" colspan="4">디바이스 명</th>
+                        <th scope="col" colspan="2">제조사</th>
+                        <th scope="col" colspan="5">가격대</th>
+                        <th scope="col" colspan="3">OS호환</th>
+                        <th scope="col" colspan="4">연결포트</th>
+                    </tr>
+                </thead>
+                <!-- tr 한줄, td 한칸 -->
+                <tbody>    
+                    <tr>
+                        <!-- colspan 가로 늘이기, rowspan 세로 (행)늘이기 -->
+                        <td colspan="4">로지텍 MX Master</td>
+                        <td colspan="2">로지텍</td>
+                        <td colspan="5">50,000 ~ 100,000</td>
+                        <td colspan="3">맥OS, Window</td>
+                        <td colspan="4">블루투스, 유니파잉</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">로지텍 Craft</td>
+                        <td colspan="2">로지텍</td>
+                        <td colspan="5">180,000 ~ 280,000</td>
+                        <td colspan="3">맥OS, Window</td>
+                        <td colspan="4">블루투스, 유니파잉</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">LG 27인치 IPS 모니터</td>
+                        <td colspan="2">LG전자</td>
+                        <td colspan="5">190,000 ~ 220,000</td>
+                        <td colspan="3">OS상관없음</td>
+                        <td colspan="4">HDMI, DVI</td>
+                    </tr>
+                </tbody>
+        </table>
     </body>
 </html>
