@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Noto+Sans+KR:400&display=swap');
+
+body
+{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.main
+{
+    width: 1200px;
+    height: 5130px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px lightgray;
+    
+}
+
+.left
+{
+    float: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: #ffffff;
+     
+}
+
+img
+{
+    width: 90px;
+    display: table;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.left .pf
+{
+    position: absolute;
+    width: 100px;
+    margin-left: 100px;
+    padding-left: -10px;
+    bottom: 30px;
+}
+
+.left .pf img
+{
+    width: 40px;
+    padding-right: 10px;
+    float: left;
+}
+
+.right
+{
+    position: relative;
+    float:right;
+    width: 900px;
+    height: 5130px;
+    background-color: #ffffff;
+    
+}
+
+.right nav
+{
+    width: 900px;
+    height: 150px;
+    position: fixed;
+    float: left;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+.right nav ul
+{
+    position: relative;
+    list-style:none;
+    padding-top: 100px;
+    background-color: #ffffff;
+    margin-left: -35px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 18px;
+
+}
+
+.right nav ul li
+{
+    display:inline;
+    text-transform:uppercase;
+    padding:0 20px;
+
+}
+
+.right nav ul li a 
+{
+    text-decoration:none; 
+    color:#B5B5B5;
+}
+
+.right nav ul li a:hover
+{
+    color: black;
+}
+
+.right nav ul li a span
+{
+    margin-left: 250px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #33AFE8;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px lightgray;
+    color: #33AFE8;
+    font-size: 14px;
+    
+}
+
+.right nav ul li a span:hover
+{
+    background-color: #33AFE8;
+    box-shadow: 0px 0px 5px lightgray;
+    color: #ffffff;
+}
+
+#section1
+{
+    width: 900px;
+    height: 430px;
+
+}
+
+.about 
+{
+    
+    padding-left: 25px;
+    font-size: 40px;
+    margin-top: 260px;
+    color: #D5D5D5;
+    
+}
+
+.slider-wrapper
+{
+    position: absolute;
+    font-size: 500%;
+    color: #D5D5D5;
+    display: flex;
+    align-items: left;
+    margin-top: -40px;
+    padding-left: 20px;
+}
+
+.slider
+{
+    height: 100px;
+    overflow: hidden;
+}
+.slider-text1 
+{
+    animation: slide 5s linear infinite;
+}
+
+.slider div 
+{
+    color: black;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+@keyframes slide 
+{
+    0% {margin-top:-300px;}
+    33% {margin-top:-200px;}
+    66% {margin-top:-100px;}
+    100% {margin-top:0px;}
+}
+
+@keyframes slide 
+{
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}  /* 5% delay */
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;} /* 5% delay */
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;} /* 5% delay */
+    100% {margin-top:0px;}
+}
+
+.design 
+{
+    margin-top: 5px;
+    margin-left: -306px;
+    
+
+}
+
+#section1 hr
+{
+    width: 150px;
+    height: 0px;
+    border-bottom: 3px solid #33AFE8;
+    margin-left: 28px;
+    margin-top: 240px;
+}
+
+#section1 .story 
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 50px;
+    margin-left: 28px;
+    letter-spacing: -1px;
+    line-height: 23px;
+    font-size: 14px;
+    color: gray;
+}
+
+#section2
+{
+    padding-top: 140px;
+}
+
+#section2 .line
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    width: 5em;
+    border-right: 2px solid black;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform:translateY(-50%);
+    margin-left: 26px;
+    color: #33AFE8;
+}
+
+#section2 .typing
+{
+    animation: typewriter 0.8s steps(13) 3s normal both,
+    blinkTextCursor 700ms steps(40) infinite normal;
+}
+
+@keyframes typewriter
+{
+    from
+    {
+        width: 0;
+    }
+
+    to
+    {
+        width: 5em;
+    }
+}
+
+@keyframes blinkTextCursor
+{
+    from
+    {
+        border-right-color: black;
+
+    }
+
+    to
+    {
+        border-right-color: transparent;
+    }
+}
+
+.contants2
+{
+    position: relative;
+    width: 844px;
+    height: 800px;
+    margin: auto;
+}
+
+.profile
+{
+    position: relative;
+    width: 422px;
+    height: 600px;
+    float: left;
+    
+}
+
+.profile img
+{
+    width: 422px;
+    padding: 0;
+}
+
+.profile_text
+{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 422px;
+    height: 600px;
+    float: right;
+}
+
+.text
+{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.text h1
+{
+    
+    letter-spacing: 13px;
+    line-height: 7px;
+}
+
+.text h3
+{
+    line-height: 7px;
+}
+
+.profile_text ul
+{
+    list-style: none;
+    line-height: 30px;
+}
+
+.profile_text hr
+{
+    width: 300px;
+    height: 0px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.license
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    float: left;
+    width: 844px;
+    height: 200px;
+    margin-top: -20px;
+}
+
+.license_table table
+{
+    width: 844px;
+}
+
+.license_table table, tr, td 
+{
+    border:solid 1px lightblue;
+    text-align: center;
+    background-color: #ffffff;
+    color: black
+}
+
+.license_table table, tr, th
+{
+    border-collapse: collapse;
+    background: #33AFE8;
+    color: #ffffff;
+} 
+
+.license_table table, caption
+{
+    color: black;
+} 
+
+#section3
+{
+    position: relative;
+    width:844px;
+    height: 600px;
+
+    margin: auto;
+    padding-top: 140px;
+}
+
+#section3 .UI_title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 5em;
+    font-size: 40px;
+    color: #33AFE8;
+}
+
+#section3 .ui_design
+{
+    position: relative;
+    width:844px;
+    height: 400px;
+    margin-top: -100px; 
+
+}
+
+#section3 .ui_design .img_box1
+{
+    width: 274px;
+    height: 400px;
+ 
+    float: left;
+}
+
+#section3 .ui_design .img_box2
+{
+    width: 274px;
+    height: 400px;
+
+    margin: auto;
+}
+
+#section3 .ui_design .img_box3
+{
+    width: 274px;
+    height: 400px;
+
+    float: right;
+    margin-top: -400px;
+}
+
+#section3 .ui_design img
+{
+    width: 100%;
+}
+
+#section4
+{
+    position: relative;
+    width:844px;
+    height: 600px;
+
+    margin: auto;
+    padding-top: 140px;
+}
+
+#section4 .graphic_title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 5em;
+    font-size: 40px;
+    color: #33AFE8;
+}
+
+#section4 .graphic_design
+{
+    position: relative;
+    width:844px;
+    height: 400px;
+    margin-top: -100px; 
+
+}
+
+#section4 .graphic_design .img_box1
+{
+    width: 274px;
+    height: 400px;
+ 
+    float: left;
+}
+
+#section4 .graphic_design .img_box2
+{
+    width: 274px;
+    height: 400px;
+
+    margin: auto;
+}
+
+#section4 .graphic_design .img_box3
+{
+    width: 274px;
+    height: 400px;
+
+    float: right;
+    margin-top: -400px;
+}
+
+#section4 .graphic_design img
+{
+    width: 100%;
+}
+
+#section5
+{
+    position: relative;
+    width:844px;
+    height: 300px;
+
+    margin: auto;
+    padding-top: 140px;
+}
+
+#section5 .award_title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 5em;
+    font-size: 40px;
+    color: #33AFE8;
+}
+
+#section5 p
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#section6
+{
+    position: relative;
+    width:844px;
+    height: 700px;
+
+    margin: auto;
+    padding-top: 140px;
+}
+
+#section6 .contact_title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 5em;
+    font-size: 40px;
+    color: #33AFE8;
+}
+
+.form1
+{
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+.name
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    float: left;
+
+}
+
+.name p
+{
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.name #name_text
+{
+    width: 250px;
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #B5B5B5;
+    padding-left: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #B5B5B5;
+  }
+
+.name #name_text:hover, #name_text:focus, #name_text:active
+  {
+    outline:none;
+    background: #ffffff;
+    border-bottom: 2px solid #33AFE8;
+    color: black;
+  }
+
+.team
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    float: left;
+}
+
+.team p
+{
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.team #team_text
+{
+    width: 250px;
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #B5B5B5;
+    padding-left: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #B5B5B5;
+  }
+
+.team #team_text:hover, #team_text:focus, #team_text:active
+  {
+    outline:none;
+    background: #ffffff;
+    border-bottom: 2px solid #33AFE8;
+    color: black;
+  }
+
+.form2
+{
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+.number
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    float: left;
+
+}
+
+.number p
+{
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.number #number
+{
+    width: 250px;
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #B5B5B5;
+    padding-left: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #B5B5B5;
+}
+
+.number #number:hover, #number:focus, #number:active
+{
+    outline:none;
+    background: #ffffff;
+    border-bottom: 2px solid #33AFE8;
+    color: black;
+}
+
+.product
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    float: left;
+}
+
+.product p
+{
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.product #product
+{
+    width: 250px;
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #B5B5B5;
+    padding-left: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #B5B5B5;
+}
+
+.product #product:hover, #product:focus, #product:active
+{
+    outline:none;
+    background: #ffffff;
+    border-bottom: 2px solid #33AFE8;
+    color: black;
+}
+
+.form3
+{
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+.done
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    float: left;
+
+}
+
+.done #done
+{
+    width: 120px;
+    height: 40px;
+    background: white;
+    border: 2px solid #33AFE8;
+    margin-top: 50px;
+    font-size: 17px;
+    color: #33AFE8;
+    border-radius: 3px;
+    box-shadow: 0 0 5px lightgray;
+}
+
+.done #done:hover, #done:focus, #done:active
+{
+    outline:none;
+    background: #33AFE8;
+    color: white;
+}
+
+#section7
+{
+    position: relative;
+    width:844px;
+    height: 400px;
+
+    margin: auto;
+}
+
+#section7 .real_title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 5em;
+    font-size: 40px;
+    color: #33AFE8;
+}
+
+#section7 p
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer
+{
+    position: relative;
+    width:844px;
+    height: 120px;
+    margin: auto;
+    border-top: 2px solid #f4f4f4;
+}
+
+.footer .footer_logo
+{
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    font-size: 15px;
+    color: #33AFE8;
+}
+
+.footer .footer_logo a img
+{
+    position: absolute;
+    width: 100px;
+    padding:0;
+    margin-top: 40px;
+    margin-left: 40px;
+    float: left;
+}
+
+.footer .footer_text
+{
+    
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    width: 693px;
+    height: 120px;
+    font-size: 15px;
+    color: #33AFE8;
+    float: right;
+    margin-top: -200px;
+}
+
+.footer .footer_text p
+{
+    font-size: 14px;
+    margin-top: 124px;
+    margin-left: 50px;
+    color:#DCDDDD;
+}

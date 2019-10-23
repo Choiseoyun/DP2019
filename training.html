@@ -15,6 +15,7 @@
         <h2>인천</h2>
         <h3>강남구</h3>
         <!-- anchor=닻 특정지점으로 이동하는 기점 -->
+        <!-- file:///C:/User/kaywon505c13/Document-->
         <a href="https://www.google.com" target="_blank">구글가기</a> <br />
         <a href="https://www.naver.com" target="_blank">네이버가기</a>
 
@@ -40,6 +41,115 @@
             <li>스프를 넣는다</li>
             <li>면을 넣는다</li>
         </ol>
+        <!--definition list 정의형 목록 -->
+        <dl>
+            <dt>
+                definition list 정의형 목록
+            </dt>
+            <dd>
+                비 순차적 목록은 순서가 없고 위치가 바뀌어도
+                의미가 바뀌지 않는 목록을 의합니다. 
+            </dd>
+        </dl>
+
+        <!-- strong, em <> b, i-->
+        <strong>강한강조</strong>
+        <em>강조</em>
+        <b>볼드체</b>
+        <i>이태릭체</i>
+        </br>
+        <!-- ins 첨부, del 삭제 <> u, strike -->
+        <ins>첨부내용</ins>
+        <del>삭제내용</del>
+
+        <u>밑줄</u>
+        <strike>가운데줄</strike>
+
+        <!-- sup 윗첨자, sub 아랫첨자 -->
+        2<sup>2</sup> :2의 2제곱
+        H<sub>2</sub>O : 물의 화학식
+
+        <img src="./images/bad.jpeg" width="1000px"/>
+
+        <!-- tablem, tr, td -->
+        
+        <style>
+            table, tr, td {border:solid 1px black;}
+        </style>
+        <!-- summary 요약, caption 제목 -->
+        <table summary="표 설명">
+            <caption>[표1] 표 제목</caption>
+            <!-- thead, tbody, tfoot -->
+            <!-- scope 초점, 망원경 : col열, row행 -->
+                <thead>
+                    <tr>
+                        <th scope="col">제목1</th>
+                        <th scope="col">제목2</th>
+                        <th scope="col">제목3</th>
+                        <th scope="col">제목4</th>
+                        <th scope="col">제목5</th>
+                    </tr>
+                </thead>
+                <!-- tr 한줄, td 한칸 -->
+                <tbody>    
+                    <tr>
+                        <!-- colspan 가로 늘이기, rowspan 세로 (행)늘이기 -->
+                        <td colspan="2">1</td>
+                        <td rowspan="2">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+        </table>
+        
+        <!-- div, span 분할 -->
+        <!-- 의미없이 쓰기좋은 태그 -->
+        <!-- 블록형 -->
+        <div>내용</div>
+        <!-- 인라인형 -->
+        <span>내용</span>
+        <!-- 웹표준, 웹접근성, 크로스브라우징 -->
+
+        <form>
+            <!-- text, password, radio, checkbox -->
+            <input type="text" name="login" placeholder="아이디를 입력해주세요" value=""/> 
+            <input type="password" placeholder="비밀번호를 입력해주세요" value=""/>
+            <input type="radio" name="bt1" value="1">
+            <input type="radio" name="bt1" value="1">
+            <input type="radio" name="bt1" value="1">
+            <!-- 같은 정보의 라디오 버튼은 이름이 같아야 함 -->
+            <br/>
+            <input type="radio" name="bt2" value="1">
+            <input type="radio" name="bt2" value="1">
+            <input type="radio" name="bt2" value="1">
+            <input type="checkbox" value="1">
+            <input type="checkbox" value="1">
+            <input type="checkbox" value="1">
+
+            <select>
+                <option>naver.com</option>
+                <option>nate.com</option>
+                <option>gmail.com</option>
+            </select>
+
+            <!-- cols 열갯수(글자수), rows 행갯수(줄수)-->
+            <textarea cols="20" row="3">
+                ?
+            </textarea>
+
+            <!-- button 버튼 -->
+            <input type="button" value="버튼이름"/>
+            <input type="button" onclick="alert('테스트완료')" value="테스트버튼"/>
+
+            <input type="submit" value="제출"/>
+        </form>
+
     </body>
 </html>
 
