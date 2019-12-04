@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800&display=swap');
+
+body
+{
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+.clear
+{
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+body
+{
+    margin: 0px;
+}
+header
+{
+    height: 100px;
+    background-color: rgba( 16, 17, 20, 0.7 ); 
+    padding: 0px; 
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+header>img
+{
+    width: 187px;
+    margin-left: 204px;
+    margin-top: 33px;
+}
+nav
+{
+    float: right;
+    margin-right: 204px;
+}
+#menu
+{
+    list-style: none;
+    margin-top: 42px;
+}
+#menu li
+{
+    float: left;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#menu li:nth-child(4)
+{
+    float: left;
+    margin-right: 0px
+}
+#menu li a
+{
+    text-decoration: none;
+    color: #DDDDDD
+}
+#menu li a:hover
+{
+    color: #BB162B
+}
+
+/* 콘텐츠 영역 1*/
+
+#content1
+{
+    background-image: url("./images/sorento_con1_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+.content1_text
+{
+    padding-top: 100px;
+    height: 561px;
+    color: #DDDDDD;
+    margin-left: 204px;
+}
+.content1_text>img
+{
+    width: 89px;
+    margin: 0px;
+    margin-top: 118px;
+    margin-bottom: 90px;
+}
+.content1_text h1 span:nth-child(1)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 400;
+}
+.content1_text h1 span:nth-child(3)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 700;
+}
+.content1_text p
+{
+    font-size: 25px;
+    color: #898989;
+    font-weight: 400;
+    margin-top: 64px;
+    line-height: 36px;
+    margin-bottom: 80px;
+}
+.content1_text a
+{
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: 2px solid #DDDDDD;
+    font-size: 22px;
+    text-decoration: none;
+    color: #DDDDDD;
+    font-weight: 600;
+}
+.content1_text a:hover
+{
+    padding: 17px 45px;
+    border-radius: 100px;
+    border: 2px solid #DDDDDD;
+    background-color: #DDDDDD;
+    font-size: 22px;
+    text-decoration: none;
+    color: #16181C;
+    font-weight: 600;
+}
+#arrow
+{
+    background: url("./images/sorento_button_arrow.png");
+    width: 20px;
+    height: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    background-size: 100%;
+}
+.content1_text a:hover #arrow
+{
+    background: url("./images/sorento_button_arrow_hover.png") no-repeat;
+    width: 20px;
+    height: 17px;
+    background-size: 100%;
+}
+#content1>#box
+{
+    display: block;
+    width: 327px;
+    height: 93px;
+    background-color: #9C2931;
+    display: inline-block;
+    margin-top: 240px;
+}
+#content1>#box p
+{
+    position: absolute;
+    font-size: 19px;
+    color: #DDDDDD;
+    margin-left: 204px;
+    margin-top: 25px;
+}
+#con1_right_img
+{
+    float: right;
+    margin-top: -240px;
+}
+#con1_right_img img
+{
+    width: 1274px;
+}
+
+/* 콘텐츠 영역 2 */
+
+#content2
+{
+    background-image: url("./images/sorento_con2_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content2 .content2_text
+{
+    padding-top: 150px;
+    height: 643px;
+    width: 800px;
+    color: #DDDDDD;
+    margin-left: 204px;
+    float: left;
+}
+#content2 .content2_text h1
+{
+    font-size: 48px;
+    margin-bottom: 47px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+#content2 .content2_text #colon1
+{
+    margin-bottom: 80px;
+}
+#content2 .content2_text #colon2
+{
+    float: right;
+    margin-top: 80px;
+}
+#content2 .content2_text p
+{
+    font-size: 25px;
+    color: #898989;
+    font-weight: 200;
+    line-height: 39px;
+    margin: 0px;
+}
+#con2_right_img
+{
+    float: right;
+    margin-top: 385px;
+}
+#con2_right_img img
+{
+    width: 791px;
+}
+
+/* 콘텐츠 영역 3 */
+
+#content3
+{
+    background-image: url("./images/sorento_con3_back");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content3 .content3_text
+{
+    width: 1000px;
+    height: 306px;
+    padding-top: 387px;
+    margin: auto;
+}
+#content3 .content3_text .icon
+{
+    width: 322px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 79px;
+}
+#content3 .content3_text p
+{
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 35px;
+    line-height: 65px;
+    font-weight: 100;
+    margin: 0px;
+}
+#content3 .content3_text p span
+{
+    font-weight: 600;
+}
+
+/* 콘텐츠 영역 4 */
+
+#content4
+{
+    background-image: url("./images/sorento_con4_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content4 .content4_content
+{
+    width: 1526px;
+    height: 773px;
+    margin: auto;
+    vertical-align: center;
+    padding-top: 218px;
+}
+#content4 .content4_content .content4_up
+{
+    width: 1526px;
+    height: 475px;
+    position: relative;
+
+}
+#content4 .content4_content .content4_down
+{
+    width: 1210px;
+    height: 298px;
+    float: right;
+}
+.content4_up>.img_title
+{
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+}
+.content4_up>.img_photo
+{
+    position: block;
+    float: right;
+}
+.content4_down h1
+{
+    font-size: 47px;
+    color: #DDDDDD;
+    font-weight: 600;
+    margin: 0px;
+}
+.content4_down p
+{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 100;
+    color: #898989;
+    margin: 0px;
+}
+.content4_down .title
+{
+    width: 350px;
+    padding-top: 76px;
+    padding-bottom: 65px;
+}
+.content4_down .title img
+{
+    width: 37px;
+}
+.content4_down .title #title_colon1
+{
+    margin-bottom: -15px;
+}
+.content4_down .title #title_colon2
+{
+    margin-top: -15px;
+    float: right;
+}
+
+/* 콘텐츠 영역 6 */
+
+#content5
+{
+    background-image: url("./images/sorento_con5_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content5 .content5_content
+{
+    width: 1526px;
+    height: 773px;
+    margin: auto;
+    vertical-align: center;
+    padding-top: 218px;
+}
+#content5 .content5_content .content5_up
+{
+    width: 1526px;
+    height: 475px;
+    position: relative;
+
+}
+#content5 .content5_content .content5_down
+{
+    width: 1210px;
+    height: 298px;
+    float: left;
+}
+.content5_up>.img_title
+{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: 0px;
+}
+.content5_up>.img_photo
+{
+    position: block;
+    float: left;
+}
+.content5_down h1
+{
+    font-size: 47px;
+    color: #DDDDDD;
+    font-weight: 600;
+    margin: 0px;
+}
+.content5_down p
+{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 100;
+    color: #898989;
+    margin: 0px;
+}
+.content5_down .title
+{
+    width: 613px;
+    padding-top: 76px;
+    padding-bottom: 65px;
+}
+.content5_down .title img
+{
+    width: 37px;
+}
+.content5_down .title #title_colon1
+{
+    margin-bottom: -15px;
+}
+.content5_down .title #title_colon2
+{
+    margin-top: -15px;
+    float: right;
+}
+
+/* 콘텐츠 영역 6 */
+
+#content6
+{
+    background-image: url("./images/sorento_con4_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content6 .content6_content
+{
+    width: 1526px;
+    height: 773px;
+    margin: auto;
+    vertical-align: center;
+    padding-top: 218px;
+}
+#content6 .content6_content .content6_up
+{
+    width: 1526px;
+    height: 475px;
+    position: relative;
+
+}
+#content6 .content6_content .content6_down
+{
+    width: 1210px;
+    height: 298px;
+    float: right;
+}
+.content6_up>.img_title
+{
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+}
+.content6_up>.img_photo
+{
+    position: block;
+    float: right;
+}
+.content6_down h1
+{
+    font-size: 47px;
+    color: #DDDDDD;
+    font-weight: 600;
+    margin: 0px;
+}
+.content6_down p
+{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 100;
+    color: #898989;
+    margin: 0px;
+}
+.content6_down .title
+{
+    width: 787px;
+    padding-top: 76px;
+    padding-bottom: 65px;
+}
+.content6_down .title img
+{
+    width: 37px;
+}
+.content6_down .title #title_colon1
+{
+    margin-bottom: -15px;
+}
+.content6_down .title #title_colon2
+{
+    margin-top: -15px;
+    float: right;
+}
+
+/* 콘텐츠 영역 7 */
+
+#content7
+{
+    background-image: url("./images/sorento_con2_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+.content7_text
+{
+    padding-top: 214px;
+    height: 561px;
+    width: 400px;
+    color: #DDDDDD;
+    margin-left: 204px;
+    margin-right: 0px;
+    float: left;
+}
+.content7_text h2
+{
+    font-size: 31px;
+    margin-bottom: 140px;
+}
+.content7_text h1 span:nth-child(1)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 100;
+}
+.content7_text h1 span:nth-child(3)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 600;
+}
+.content7_text p
+{
+    font-size: 25px;
+    color: #898989;
+    font-weight: 100;
+    margin-top: 64px;
+    line-height: 36px;
+    margin-bottom: 80px;
+}
+#content7>#box
+{
+    display: block;
+    width: 327px;
+    height: 93px;
+    background-color: #9C2931;
+    display: inline-block;
+    margin-top: 126px;
+}
+#content7>#box p
+{
+    position: absolute;
+    font-size: 19px;
+    color: #DDDDDD;
+    margin-left: 204px;
+    margin-top: 25px;
+}
+#con7_right_img
+{
+    float: right;
+}
+#con7_right_img>img
+{
+    width: 1080px;
+}
+
+/* 콘텐츠 영역 8 */
+
+#content8
+{
+    background-image: url("./images/sorento_con4_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+#content8 .content8_content
+{
+    width: 1204px;
+    height: 668px;
+    margin: auto;
+}
+.content8_text
+{
+    padding-top: 200px;
+    color: #DDDDDD;
+    padding-bottom: 85px;
+}
+.content8_text h1
+{
+    line-height: 43px;
+    text-align: center;
+}
+.content8_text h1 span:nth-child(1)
+{
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 100;
+}
+.content8_text h1 span:nth-child(3)
+{
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.content8_card
+{
+    width: 1242px;
+    height: 500px;
+}
+.content8_card>#card_list
+{
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+.content8_card>#card_list li
+{
+    float: left;
+    list-style: none;
+    margin: 0 21px;
+}
+
+.content8_card .card_up
+{
+    width: 372px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.content8_card .card_up .card_up_img
+{
+    width: 338px;
+    margin: auto;
+    padding-top: 30px;
+}
+.content8_card .card_down
+{
+    width: 372px;
+    height: 250px;
+    background-color: #26282B;
+    border-radius: 0px 0px 10px 10px;
+}
+.content8_card .card_down2
+{
+    width: 372px;
+    height: 250px;
+    background-color: #9C2931;
+    border-radius: 0px 0px 10px 10px;
+}
+.content8_card .card_down_text
+{
+    padding: 32px;
+}
+.content8_card .card_down_text h1
+{
+    font-size: 34px;
+    color: #DDDDDD;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 2px;
+}
+.content8_card .card_down_text h2
+{
+    font-size: 20px;
+    color: #DDDDDD;
+    font-weight: 400;
+    margin: 0;
+}
+.content8_card .card_down_text p
+{
+    font-size: 16px;
+    line-height: 22px;
+    color: #DDDDDD;
+    font-weight: 100;
+    margin: 0;
+}
+.long_line
+{
+    border-bottom: solid 2px #DDDDDD;
+    width: 308px;
+    margin: 20px 0px;
+}
+
+
+/* 푸터 영역 */
+
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #09090A;
+}
+.footer_img
+{
+    margin-left: 204px;
+    padding-top: 110px;
+    width: 200px;
+    float: left;
+}
+.footer_img img
+{
+    width: 200px;
+}
+.footer_text
+{
+    margin-right: 204px;
+    margin-top: 80px;
+    float: right;
+    vertical-align: center;
+    color: #383838;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer_nav
+{
+    margin: 0;
+    color: #DDDDDD;
+    font-size: 20px;
+}
+.footer_nav ul
+{
+    list-style: none;
+    margin-left: 0;
+}
+.footer_nav ul li
+{
+    float: left;
+    margin: 0 20px
+}
+.footer_nav ul li:nth-child(1)
+{
+    float: left;
+    margin-left: -40px;
+    color: #898989;
+}
+.footer_nav ul li:nth-child(6)
+{
+    float: left;
+    margin-right: 0
+}
+.footer_nav ul li a
+{
+    text-decoration: none;
+    color: #DDDDDD;
+}
+.footer_nav ul li a:hover
+{
+    text-decoration: none;
+    color: #9C2931;
+}

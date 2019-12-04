@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.clear
+{
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+header
+{
+    height: 100px;
+    background-color: rgba( 16, 17, 20, 0.7 ); 
+    padding: 0px; 
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin: 0;
+}
+header>img
+{
+    width: 187px;
+    margin-left: 204px;
+    margin-top: 33px;
+}
+nav
+{
+    float: right;
+    margin-right: 204px;
+}
+#menu
+{
+    list-style: none;
+    margin-top: 42px;
+}
+#menu li
+{
+    float: left;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#menu li:nth-child(5)
+{
+    float: left;
+    margin-right: 0px
+}
+#menu li a
+{
+    text-decoration: none;
+    color: #DDDDDD
+}
+#menu li a:hover
+{
+    color: #BB162B
+}
+#content1
+{
+    background-image: url("./images/sorento_con1_back.png");
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: 50% 50%;
+}
+.content1_text
+{
+    padding-top: 100px;
+    height: 561px;
+    color: #DDDDDD;
+    margin-left: 204px;
+}
+.content1_text>img
+{
+    width: 89px;
+    margin: 0px;
+    margin-top: 118px;
+    margin-bottom: 90px;
+}
+.content1_text h1 span:nth-child(1)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 100;
+}
+.content1_text h1 span:nth-child(3)
+{
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 600;
+}
+.content1_text p
+{
+    font-size: 25px;
+    color: #898989;
+    font-weight: 100;
+    margin-top: 64px;
+    line-height: 36px;
+    margin-bottom: 80px;
+}
+.content1_text a
+{
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: 2px solid #DDDDDD;
+    font-size: 22px;
+    text-decoration: none;
+    color: #DDDDDD;
+    font-weight: 600;
+}
+.content1_text a:hover
+{
+    padding: 17px 45px;
+    border-radius: 100px;
+    border: 2px solid #DDDDDD;
+    background-color: #DDDDDD;
+    font-size: 22px;
+    text-decoration: none;
+    color: #16181C;
+    font-weight: 600;
+}
+#arrow
+{
+    background: url("./images/sorento_button_arrow.png");
+    width: 20px;
+    height: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    background-size: 100%;
+}
+.content1_text a:hover #arrow
+{
+    background: url("./images/sorento_button_arrow_hover.png") no-repeat;
+    width: 20px;
+    height: 17px;
+    background-size: 100%;
+}
+#content1>#box
+{
+    display: block;
+    width: 327px;
+    height: 93px;
+    background-color: #9C2931;
+    display: inline-block;
+    margin-top: 240px;
+}
+#content1>#box p
+{
+    position: absolute;
+    font-size: 19px;
+    color: #DDDDDD;
+    margin-left: 204px;
+    margin-top: 25px;
+}
+#con1_right_img
+{
+    float: right;
+    margin-top: -240px;
+}
+#con1_right_img img
+{
+    width: 1274px;
+}
+footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #09090A;
+}
+.footer_img
+{
+    margin-left: 204px;
+    padding-top: 110px;
+    width: 200px;
+    float: left;
+}
+.footer_img img
+{
+    width: 200px;
+}
+.footer_text
+{
+    margin-right: 204px;
+    margin-top: 80px;
+    float: right;
+    vertical-align: center;
+    color: #383838;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer_nav
+{
+    margin: 0;
+    color: #DDDDDD;
+    font-size: 20px;
+}
+.footer_nav ul
+{
+    list-style: none;
+    margin-left: 0;
+}
+.footer_nav ul li
+{
+    float: left;
+    margin: 0 20px
+}
+.footer_nav ul li:nth-child(1)
+{
+    float: left;
+    margin-left: -40px;
+    color: #898989;
+}
+.footer_nav ul li:nth-child(6)
+{
+    float: left;
+    margin-right: 0
+}
+.footer_nav ul li a
+{
+    text-decoration: none;
+    color: #DDDDDD;
+}
+.footer_nav ul li a:hover
+{
+    text-decoration: none;
+    color: #9C2931;
+}

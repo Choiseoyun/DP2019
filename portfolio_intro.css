@@ -1,4 +1,7 @@
-
+body
+{
+    background-color: #f7f7f7;
+}
 
 .card
 {
@@ -28,7 +31,7 @@ body
         align-items: center;
         min-height: 100vh;
     }
-a
+center>a
     {
         margin-top: 55px;
         position: relative;
